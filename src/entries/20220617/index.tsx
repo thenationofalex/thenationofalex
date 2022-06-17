@@ -3,7 +3,7 @@ import styles from '../../../styles/Home.module.css'
 
 const Entry20220617 = () => <>
   <figure className={styles.imageEntry}>
-    <img src={'/001033720018.jpg'}
+    <img src={'/thenationofalex/001033720018.jpg'}
       alt=''
       width='800'
       height='530'
