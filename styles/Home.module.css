@@ -22,6 +22,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-size: 0.8rem;
 }
 
 .footer a {
@@ -50,6 +51,15 @@
 
 .content {
   padding: 2rem;
+}
+
+.imageEntry {
+  margin: 0;
+}
+
+.imageEntry img {
+  width: 100%;
+  height: auto;
 }
 
 .imageEntry figcaption {
