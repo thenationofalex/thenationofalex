@@ -1,15 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
-import styles from '../../../styles/Home.module.css'
+import Entry from '../../components/entry'
+import Config from '../../config'
 
-const Entry20220617 = () => <>
-  <figure className={styles.imageEntry}>
-    <img src={'/thenationofalex/001033720018.jpg'}
-      alt=''
-      width='800'
-      height='530'
-    />
-    <figcaption>Flowers, Adelaide 2022</figcaption>
-  </figure>
-</>
+const Entry20220617 = () => <Entry
+  image={{ 
+    alt: '',
+    width: 800,
+    height: 500,
+    src: `${Config.staticPrefix}/001033720018.jpg`
+  }}
+  caption={'Flowers, Adelaide 2022'}
+/>
 
 export default Entry20220617
