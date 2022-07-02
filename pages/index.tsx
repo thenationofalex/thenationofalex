@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import Entry20220617 from '../src/entries/20220617'
+import Entry20220702 from '../src/entries/20220702'
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </h1>
         <div>by alex</div>
         <section className={styles.content}>
-          <Entry20220617 />
+          <Entry20220702 />
         </section>
       </main>
 

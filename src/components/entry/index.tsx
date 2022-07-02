@@ -2,25 +2,29 @@
 import styles from '../../../styles/Home.module.css'
 
 interface IEntry {
-  image: {
+  image?: {
     src: string
     width?: number
     height?: number
     alt?: string
   }
-  caption: string
+  caption?: string
   content?: any
 }
 
 const Entry = ({ image, caption, content }: IEntry) => <>
-  <figure className={styles.imageEntry}>
-    <img src={image.src}
-      alt={image.alt}
-      width={image.width}
-      height={image.height}
-    />
-    <figcaption>{caption}</figcaption>
-  </figure>
+  {
+    image && <figure className={styles.imageEntry}>
+      <img src={image.src}
+        alt={image.alt}
+        width={image.width}
+        height={image.height}
+      />
+      {
+        caption && <figcaption>{caption}</figcaption>
+      }
+    </figure>
+  }
   {
     content && <div className={styles.content}>{content}</div>
   }
