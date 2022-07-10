@@ -1,7 +1,7 @@
 import Entry from '../../components/entry'
 import Config from '../../config'
 
-const Entry20220702 = () => <Entry
+export const Entry20220702 = () => <Entry
   image={{ 
     alt: '',
     width: 600,
