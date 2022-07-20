@@ -19,6 +19,7 @@ const Entry = ({ image, caption, content }: IEntry) => <>
         alt={image.alt}
         width={image.width}
         height={image.height}
+        className={'imageEntryImg'}
       />
       {
         caption && <figcaption>{caption}</figcaption>

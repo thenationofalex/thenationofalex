@@ -60,6 +60,7 @@
 .imageEntry img {
   width: 100%;
   height: auto;
+  max-height: 60vh;
 }
 
 .imageEntry figcaption {
