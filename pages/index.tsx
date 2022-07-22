@@ -28,8 +28,8 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-The writing, photography, and the design of this website is copyrighted. <br />
-Feel free to ask if you want to reuse any content beyond the bounds of fair use.
+          The writing, photography, and the design of this website is copyrighted. <br />
+          Feel free to ask if you want to reuse any content beyond the bounds of fair use.
         </a>
       </footer>
     </div>
