@@ -1,5 +1,5 @@
 const Config = {
-  staticPrefix: '/thenationofalex'
+  staticPrefix: '/'
 }
 
 export default Config
