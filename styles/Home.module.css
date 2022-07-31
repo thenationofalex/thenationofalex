@@ -58,8 +58,10 @@
 }
 
 .imageEntry img {
-  width: 100%;
+  display: block;
+  width: auto;
   height: auto;
+  max-width: 100%;
   max-height: 60vh;
 }
 
