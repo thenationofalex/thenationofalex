@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import { Entry20220724 as Entry } from '../src/entries/20220724'
+import { Entry20220801 as Entry } from '../src/entries/20220801'
 
 const Home: NextPage = () => {
   return (
